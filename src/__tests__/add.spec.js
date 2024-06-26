@@ -7,7 +7,7 @@ import Add from '../components/Add'
 
 describe('todo add', () => {
     test('armazenando valor do input', () => {
-        render(<Add></Add>) // passa o componente que deseja testar
+        render(<Add />) // passa o componente que deseja testar
 
     })
 })
