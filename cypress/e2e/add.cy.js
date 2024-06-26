@@ -1,5 +1,5 @@
-describe('Lista TODO', () => {]
-  
+describe('Lista TODO', () => {
+
 // TODO:Refatorar 
   it('Deve guardar o valor de um input como texto', () => {
     cy.visit('https://localhost:3000/')
