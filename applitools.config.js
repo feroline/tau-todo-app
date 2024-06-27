@@ -1,9 +1,9 @@
-module.exports = { 
+module.exports = {
     testConcurrency: 1,
-    apiKey: 'APPLITOOLS_API_KEY',
+    apiKey: 'bMlMH2PIaVafpCzu0sBr0Ypg6eOAtSn11HRfzsbIbbo110',
     batchName: 'TAU Todo App',
     browser: [
-        { width: 800, height: 600, name: 'chrome' },
-        {deviceName: 'iPhone X', screenOrientation: 'portrait'}
+        {width: 800, height: 600, name: 'chrome'},
+        {deviceName: 'Pixel 2', screenOrientation: 'portrait'}
     ]
 }
