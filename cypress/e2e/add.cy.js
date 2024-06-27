@@ -30,5 +30,7 @@ describe('Lista TODO', () => {
       }
     })
 
+    cy.eyesClose();
+
   })
 })
