@@ -15,7 +15,7 @@
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "ci:test": "CI=true react-scripts test --coverage"
+    "ci:test": "cross-env CI=true react-scripts test --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
