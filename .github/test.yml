@@ -31,5 +31,3 @@ jobs:
         env:
           APPLITOOLS_API_KEY: ${{secrets.APPLITOOLS_API_KEY}}
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-        
