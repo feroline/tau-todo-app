@@ -35,6 +35,9 @@ jobs:
       - run: npm ci
       - run: npm publish
       - run: npm run ci:test
-      - 
+      - uses: remeovs/lcov-reporter-action@v0.2.19
+        with: 
+          lcov-file: ./coverage/lcov.info
+          github-token: ${{secrets.GITHUB_TOKEN}}
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
